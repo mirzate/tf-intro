@@ -1,2 +1,33 @@
+id_rsa
+id_rsa.pub
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log
+crash.log
+
+# Ignore terraform plan output files
+*.tfplan
+
+# Local .terraform directory (provider binaries, cache, etc.)
+.terraform/
+
+# Override and secret variable files
 *.tfvars
-.terraform
+*.tfvars.json
+
+# Sensitive auto-generated files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration file
+.terraformrc
+terraform.rc
+
+# Mac/Linux hidden files
+.DS_Store
+
